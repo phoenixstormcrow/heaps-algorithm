@@ -1,0 +1,24 @@
+{
+  "name": "heaps-algorithm",
+  "version": "1.0.0",
+  "description": "Heap's algorithm for generating permutations of an array.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint heapsPermutations.js",
+    "test": "babel-node test.js",
+    "pretest": "npm run lint",
+    "build": "babel heapsPermutations.js -o index.js",
+    "prebuild": "npm run test"
+  },
+  "keywords": [
+    "Heap's Algorithm",
+    "algorithm",
+    "permutations"
+  ],
+  "author": "K. P. MacGregor <phoenixstormcrow@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^3.1.1",
+    "eslint": "^0.21.0"
+  }
+}
